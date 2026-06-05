@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GARMAT SA — Guías Santiago del Estero 25/26</title>
 <script>
-const DASHBOARD_DATA = {"porMesQ":[{"mes":"ene-26","cantidad":14,"importe":1798464,"quincena":"1° Q"},{"mes":"ene-26","cantidad":5,"importe":312492,"quincena":"2° Q"},{"mes":"feb-26","cantidad":16,"importe":1239865,"quincena":"1° Q"},{"mes":"feb-26","cantidad":16,"importe":920742,"quincena":"2° Q"},{"mes":"mar-26","cantidad":1,"importe":120156,"quincena":"1° Q"},{"mes":"abr-26","cantidad":189,"importe":23543078,"quincena":"2° Q"},{"mes":"may-26","cantidad":205,"importe":22874305,"quincena":"1° Q"},{"mes":"may-26","cantidad":114,"importe":7828902,"quincena":"2° Q"}],"totalGuias":560,"porDestino":[{"importe":17071521,"destino":"Santiago del Estero","cantidad":138},{"importe":8021195,"destino":"Tucumán","cantidad":72},{"importe":2223385,"destino":"Santa Fe","cantidad":23},{"importe":432648,"destino":"Salta","cantidad":6},{"importe":186048,"destino":"Misiones","cantidad":2}],"ultimas":[{"cp":"5574","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006684","detalle":"31/5/2026 16:25","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5575","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006695","detalle":"31/5/2026 16:51","destino":"30-68568869-3","importe":76178,"estado":"Pagado"},{"cp":"5576","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006710","detalle":"31/5/2026 17:43","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5577","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006765","detalle":"31/5/2026 19:15","destino":"30-68568869-3","importe":76178,"estado":"Pagado"},{"cp":"5578","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006769","detalle":"31/5/2026 19:27","destino":"30-68568869-3","importe":63119,"estado":"Pagado"},{"cp":"5579","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006809","detalle":"31/5/2026 21:29","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5580","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006814","detalle":"31/5/2026 21:44","destino":"30-68568869-3","importe":67472,"estado":"Pagado"},{"cp":"5581","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006819","detalle":"31/5/2026 22:08","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5582","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006826","detalle":"31/5/2026 23:34","destino":"30-68568869-3","importe":67472,"estado":"Pagado"},{"cp":"5583","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006827","detalle":"31/5/2026 23:34","destino":"30-68568869-3","importe":67472,"estado":"Pagado"}],"lastUpdated":"05/06/2026 12:15","porMes":[{"mes":"ene-26","cantidad":19,"importe":2110956},{"mes":"feb-26","cantidad":32,"importe":2160607},{"mes":"mar-26","cantidad":1,"importe":120156},{"mes":"abr-26","cantidad":189,"importe":23543078},{"mes":"may-26","cantidad":319,"importe":30703207}],"porEstado":[{"importe":58501681,"cantidad":559,"estado":"Pagado"},{"importe":136323,"cantidad":1,"estado":"Vencido"}],"porOrigen":[{"origen":"Rapelli","cantidad":240,"importe":27810765},{"origen":"Tucumán","cantidad":179,"importe":12593590},{"origen":"Santiago del Estero","cantidad":139,"importe":18044322},{"origen":"Ciudad Autónoma de Buenos Aires","cantidad":1,"importe":65295},{"origen":"Otra Localidad","cantidad":1,"importe":124032}],"totalImporte":58638004};
+const DASHBOARD_DATA = {"porMesQ":[{"mes":"ene-26","cantidad":14,"importe":1798464,"quincena":"1° Q"},{"mes":"ene-26","cantidad":5,"importe":312492,"quincena":"2° Q"},{"mes":"feb-26","cantidad":16,"importe":1239865,"quincena":"1° Q"},{"mes":"feb-26","cantidad":16,"importe":920742,"quincena":"2° Q"},{"mes":"mar-26","cantidad":1,"importe":120156,"quincena":"1° Q"},{"mes":"abr-26","cantidad":189,"importe":23543078,"quincena":"2° Q"},{"mes":"may-26","cantidad":205,"importe":22874305,"quincena":"1° Q"},{"mes":"may-26","cantidad":114,"importe":7828902,"quincena":"2° Q"}],"totalGuias":560,"porDestino":[{"importe":17071521,"destino":"Santiago del Estero","cantidad":138},{"importe":8021195,"destino":"Tucumán","cantidad":72},{"importe":2223385,"destino":"Santa Fe","cantidad":23},{"importe":432648,"destino":"Salta","cantidad":6},{"importe":186048,"destino":"Misiones","cantidad":2}],"ultimas":[{"cp":"5574","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006684","detalle":"31/5/2026 16:25","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5575","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006695","detalle":"31/5/2026 16:51","destino":"30-68568869-3","importe":76178,"estado":"Pagado"},{"cp":"5576","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006710","detalle":"31/5/2026 17:43","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5577","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006765","detalle":"31/5/2026 19:15","destino":"30-68568869-3","importe":76178,"estado":"Pagado"},{"cp":"5578","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006769","detalle":"31/5/2026 19:27","destino":"30-68568869-3","importe":63119,"estado":"Pagado"},{"cp":"5579","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006809","detalle":"31/5/2026 21:29","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5580","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006814","detalle":"31/5/2026 21:44","destino":"30-68568869-3","importe":67472,"estado":"Pagado"},{"cp":"5581","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006819","detalle":"31/5/2026 22:08","destino":"30-68568869-3","importe":65295,"estado":"Pagado"},{"cp":"5582","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006826","detalle":"31/5/2026 23:34","destino":"30-68568869-3","importe":67472,"estado":"Pagado"},{"cp":"5583","fecha":"31/5/2026","quincena":"2° Q","origen":"Tucumán","mes":"may-26","nro":"2006827","detalle":"31/5/2026 23:34","destino":"30-68568869-3","importe":67472,"estado":"Pagado"}],"lastUpdated":"05/06/2026 12:30","porMes":[{"mes":"ene-26","cantidad":19,"importe":2110956},{"mes":"feb-26","cantidad":32,"importe":2160607},{"mes":"mar-26","cantidad":1,"importe":120156},{"mes":"abr-26","cantidad":189,"importe":23543078},{"mes":"may-26","cantidad":319,"importe":30703207}],"porEstado":[{"importe":58501681,"cantidad":559,"estado":"Pagado"},{"importe":136323,"cantidad":1,"estado":"Vencido"}],"porOrigen":[{"origen":"Rapelli","cantidad":240,"importe":27810765},{"origen":"Tucumán","cantidad":179,"importe":12593590},{"origen":"Santiago del Estero","cantidad":139,"importe":18044322},{"origen":"Ciudad Autónoma de Buenos Aires","cantidad":1,"importe":65295},{"origen":"Otra Localidad","cantidad":1,"importe":124032}],"totalImporte":58638004};
 </script>
 <script>
 /**
@@ -30,6 +30,81 @@ const DASHBOARD_DATA = {"porMesQ":[{"mes":"ene-26","cantidad":14,"importe":17984
 //# sourceMappingURL=chart.umd.js.map
 
 </script>
+<style>
+  #loginOverlay {
+    position: fixed; inset: 0; z-index: 9999;
+    background: #0d1117;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .login-box {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 14px;
+    padding: 40px 44px;
+    width: 360px;
+    box-shadow: 0 8px 40px rgba(0,0,0,.6);
+    text-align: center;
+  }
+  .login-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #58a6ff, #79c0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 6px;
+  }
+  .login-sub {
+    color: #8b949e;
+    font-size: .82rem;
+    margin-bottom: 32px;
+  }
+  .login-box label {
+    display: block;
+    text-align: left;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    color: #8b949e;
+    margin-bottom: 6px;
+  }
+  .login-box input {
+    width: 100%;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    color: #e6edf3;
+    font-size: .92rem;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    outline: none;
+    transition: border-color .15s;
+    font-family: inherit;
+  }
+  .login-box input:focus { border-color: #1f6feb; }
+  .login-btn {
+    width: 100%;
+    background: #1f6feb;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: .92rem;
+    font-weight: 600;
+    padding: 11px;
+    cursor: pointer;
+    transition: background .15s;
+    font-family: inherit;
+    margin-top: 4px;
+  }
+  .login-btn:hover { background: #388bfd; }
+  .login-error {
+    color: #ff7b72;
+    font-size: .8rem;
+    margin-top: 12px;
+    min-height: 18px;
+  }
+</style>
 <style>
   :root {
     --bg:        #0d1117;
@@ -244,6 +319,19 @@ const DASHBOARD_DATA = {"porMesQ":[{"mes":"ene-26","cantidad":14,"importe":17984
 </head>
 <body>
 
+<div id="loginOverlay">
+  <div class="login-box">
+    <div class="login-logo">GARMAT SA</div>
+    <div class="login-sub">Guías Tránsito Santiago del Estero · Panel de Control</div>
+    <label>Usuario</label>
+    <input type="text" id="loginUser" placeholder="Usuario" autocomplete="username" />
+    <label>Contraseña</label>
+    <input type="password" id="loginPass" placeholder="Contraseña" autocomplete="current-password" />
+    <button class="login-btn" onclick="doLogin()">Ingresar</button>
+    <div class="login-error" id="loginError"></div>
+  </div>
+</div>
+
 <div class="header">
   <div class="header-left">
     <h1>GARMAT SA &mdash; Guías Tránsito Santiago del Estero</h1>
@@ -312,6 +400,41 @@ const DASHBOARD_DATA = {"porMesQ":[{"mes":"ene-26","cantidad":14,"importe":17984
 <div class="footer">GARMAT SA &nbsp;·&nbsp; Guías Tránsito Santiago del Estero 25/26 &nbsp;·&nbsp; Dashboard generado automáticamente</div>
 
 <script>
+// ── Login ─────────────────────────────────────────────────────────
+const CRED_HASH = "9f6b7b5c9e363951760ff3827d2612b69430ce1c8907c369c68ad15ef0da0c72";
+
+async function sha256(text) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,"0")).join("");
+}
+
+async function doLogin() {
+  const user = document.getElementById("loginUser").value.trim();
+  const pass = document.getElementById("loginPass").value;
+  const combined = user + ":" + pass;
+  const hash = await sha256(combined);
+  if (hash === CRED_HASH) {
+    sessionStorage.setItem("garmat_auth", "1");
+    document.getElementById("loginOverlay").style.display = "none";
+  } else {
+    document.getElementById("loginError").textContent = "Usuario o contraseña incorrectos.";
+    document.getElementById("loginPass").value = "";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (sessionStorage.getItem("garmat_auth") === "1") {
+    document.getElementById("loginOverlay").style.display = "none";
+  }
+  document.getElementById("loginPass").addEventListener("keydown", e => {
+    if (e.key === "Enter") doLogin();
+  });
+  document.getElementById("loginUser").addEventListener("keydown", e => {
+    if (e.key === "Enter") document.getElementById("loginPass").focus();
+  });
+});
+
+// ── Dashboard ─────────────────────────────────────────────────────
 const D = DASHBOARD_DATA;
 
 // ── Helpers ──────────────────────────────────────────────────────
